@@ -5,7 +5,7 @@ $center: center;
 
 
 body {
-	background-color: $main-color;
+	background-color: purple;
 }
 .bkg {
 	padding-top: 5rem;
@@ -29,11 +29,6 @@ h4 {
 	justify-content: $center;
 	align-items: $center;
 }
-.flex-auto {
-	flex: 1 1 100%;
-}
-
-
 .align-bottom {
 	align-items: flex-end;
 }
@@ -45,19 +40,25 @@ h4 {
 	flex-direction: column;
 }
 div{
+	div{
+	div{ position:relative;
+	}
 	a{
-		text-decoration: none;
-	p{
-		font-family: $main-font;
-		color: $main-font-color;
-		background: linear-gradient( rgba(0, 0, 0, .5) 20%, rgba(0, 0, 0, .5)20%);
-		font-size: 1rem;
-		position: relative;
-		width: 100%;
-		bottom: 50px;
-		height: 5rem;
-	}
-	}
+			text-decoration: none;
+		
+				width:100%;	
+				position:absolute;	
+				bottom:0;	
+	
+	
+	}}
 	
 }
-	
+.abstract{
+	font-family: $main-font;
+		color: $main-font-color;
+		background: linear-gradient( rgba(0, 0, 0, .5) 20%, rgba(0, 0, 0, .5)20%);
+		font-size: 1em;
+		display: flex;
+		align-items: flex-end;
+}

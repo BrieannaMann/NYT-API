@@ -50,24 +50,18 @@ table {
 
 @media only screen and (min-width: 600px) {
   .article-mobile {
-    width: 30%; }
+    width: 33%; }
   .vertical-direction {
     flex-direction: row; }
   .flex-wrap {
     flex-wrap: wrap; }
-  div {
+  div div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; }
-    div a {
-      text-decoration: none;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      width: 33%; }
-      div a img {
-        width: 100%;
-        height: 25rem; }
+    div div img {
+      width: 100%;
+      height: 100%; }
   .logo {
     padding-bottom: 2rem; } }
 
@@ -78,19 +72,17 @@ table {
     flex-direction: column; }
   .flex-wrap {
     flex-wrap: nowrap; }
-  div a {
-    text-decoration: none; }
-    div a img {
+  div div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    div div img {
       width: 100%;
-      position: relative; }
-    div a p {
-      font-family: Open Sans;
-      color: #fff;
-      background: linear-gradient(rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.5) 20%);
-      font-size: 1rem;
-      position: relative;
-      width: 100%;
-      top: -30px; } }
+      height: 100%; } }
+
+@media only screen and (min-width: 1000px) {
+  .article-mobile {
+    width: 25%; } }
 
 body {
   background-color: #000; }
@@ -117,9 +109,6 @@ h4 {
   justify-content: center;
   align-items: center; }
 
-.flex-auto {
-  flex: 1 1 100%; }
-
 .align-bottom {
   align-items: flex-end; }
 
@@ -130,14 +119,19 @@ h4 {
   padding-bottom: 5rem;
   flex-direction: column; }
 
-div a {
-  text-decoration: none; }
-  div a p {
-    font-family: Open Sans;
-    color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.5) 20%);
-    font-size: 1rem;
-    position: relative;
-    width: 100%;
-    bottom: 50px;
-    height: 5rem; }
+div div div {
+  position: relative; }
+
+div div a {
+  text-decoration: none;
+  width: 100%;
+  position: absolute;
+  bottom: 0; }
+
+.abstract {
+  font-family: Open Sans;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.5) 20%);
+  font-size: 1em;
+  display: flex;
+  align-items: flex-end; }
