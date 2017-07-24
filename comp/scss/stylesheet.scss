@@ -1,0 +1,63 @@
+$main-color: #000;
+$main-font: Open Sans;
+$main-font-color: #fff;
+$center: center;
+
+
+body {
+	background-color: $main-color;
+}
+.bkg {
+	padding-top: 5rem;
+}
+h1 {
+	font-family: $main-font;
+	color: $main-font-color;
+	font-size: .5rem;
+	padding-top: 3rem;
+}
+h4 {
+	font-family: $main-font;
+	color: grey;
+	font-size: 1rem;
+	padding: 1rem;
+}
+.flex {
+	display: flex;
+}
+.flex-center{
+	justify-content: $center;
+	align-items: $center;
+}
+.flex-auto {
+	flex: 1 1 100%;
+}
+
+
+.align-bottom {
+	align-items: flex-end;
+}
+.choose{
+	padding:1rem;
+}
+.section{
+	padding-bottom: 5rem;
+	flex-direction: column;
+}
+div{
+	a{
+		text-decoration: none;
+	p{
+		font-family: $main-font;
+		color: $main-font-color;
+		background: linear-gradient( rgba(0, 0, 0, .5) 20%, rgba(0, 0, 0, .5)20%);
+		font-size: 1rem;
+		position: relative;
+		width: 100%;
+		bottom: 50px;
+		height: 5rem;
+	}
+	}
+	
+}
+	
