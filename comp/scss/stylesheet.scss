@@ -7,18 +7,14 @@ body {
 	background-color: $main-color;
 }
 .header{
-	width: 70%;
-}
-
-.minified{
 	width: 100%;
-}
-.bkg {
+	justify-content: $center;
+	align-items: $center;
 	padding-top: 5rem;
 }
-.logo{
-	padding-bottom: 2rem;
-	}
+.header img{
+	padding-bottom:2rem;
+}
 h1 {
 	font-family: $main-font;
 	color: $main-font-color;
@@ -44,7 +40,6 @@ h4 {
 .choose{
 	padding:1rem;
 }
-
 
 div{
 	div{

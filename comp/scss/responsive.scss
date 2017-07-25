@@ -17,10 +17,19 @@ div{
 				height: 320px;
 				}}
 }
-div {
-.section{
+div .section{
+		padding-bottom: 1rem;
 		flex-direction: column;
-}}
+		justify-content: $center;
+}
+.minified img{
+	width: 40%;
+	padding-right: 5rem;
+}
+.footer{
+	justify-content: flex-start;
+	align-items: flex-end;
+}
 
 	}
 @media only screen and (max-width: 600px) {
@@ -33,11 +42,11 @@ div {
 	.flex-wrap{
 		flex-wrap: nowrap;
 		}
-	div {
-	.section{
-		padding-bottom: 5rem;
+
+	div .section{
+		padding-bottom: 1rem;
 		flex-direction: column;
-}}
+}
 div{
 	div{
 	display:flex;
@@ -49,7 +58,23 @@ div{
 	}
 		
 	}}
+	.minified {
+	justify-content: $center;
+	align-items: $center;
+	width:100%
+	}
+	.minified img{
+	width: 20%;
+	padding-top:1rem;
+	
 }
+.footer{
+		justify-content: $center;
+	align-items: $center;
+}
+
+}
+
 @media only screen and (min-width: 1000px) {
 	.article-mobile{
 		width:25%;
