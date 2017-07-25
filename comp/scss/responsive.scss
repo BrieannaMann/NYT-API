@@ -26,6 +26,11 @@ div .section{
 	width: 40%;
 	padding-right: 5rem;
 }
+.header{
+	width: 100%;
+	align-items: $center;
+	padding-top: 5rem;
+}
 .footer{
 	justify-content: flex-start;
 	align-items: flex-end;
@@ -67,6 +72,12 @@ div{
 	width: 20%;
 	padding-top:1rem;
 	
+}
+.header{
+	width: 100%;
+	justify-content: $center;
+	align-items: $center;
+	padding-top: 5rem;
 }
 .footer{
 		justify-content: $center;
