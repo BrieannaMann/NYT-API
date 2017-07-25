@@ -11,6 +11,7 @@ $.ajax({
  url: url,
  method: 'GET',
 }).done(function(result) {
+	$("header").addclass("minified");
 var count=1;
 	for(var i= 0; i< result.results.length; i++){
 			

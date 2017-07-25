@@ -3,13 +3,22 @@ $main-font: Open Sans;
 $main-font-color: #fff;
 $center: center;
 
-
 body {
-	background-color: purple;
+	background-color: $main-color;
+}
+.header{
+	width: 70%;
+}
+
+.minified{
+	width: 100%;
 }
 .bkg {
 	padding-top: 5rem;
 }
+.logo{
+	padding-bottom: 2rem;
+	}
 h1 {
 	font-family: $main-font;
 	color: $main-font-color;
@@ -35,30 +44,27 @@ h4 {
 .choose{
 	padding:1rem;
 }
-.section{
-	padding-bottom: 5rem;
-	flex-direction: column;
-}
+
+
 div{
 	div{
-	div{ position:relative;
-	}
-	a{
-			text-decoration: none;
-		
+		div{ position:relative;
+		}
+		a{
+				text-decoration: none;
 				width:100%;	
 				position:absolute;	
 				bottom:0;	
-	
-	
-	}}
-	
-}
+		}}
+	}
 .abstract{
-	font-family: $main-font;
+		font-family: $main-font;
+		font-weight:lighter;
 		color: $main-font-color;
 		background: linear-gradient( rgba(0, 0, 0, .5) 20%, rgba(0, 0, 0, .5)20%);
-		font-size: 1em;
+		font-size: .8em;
 		display: flex;
 		align-items: flex-end;
+		padding:.5rem;
+		line-height: 1rem;
 }

@@ -6,12 +6,6 @@ $center: center;
 	.article-mobile{
 		width:33%;
 	}
-	.vertical-direction {
-		flex-direction: row;
-	}
-	.flex-wrap{
-	flex-wrap: wrap;
-	}
 div{
 	
 	div{
@@ -20,12 +14,14 @@ div{
 		flex-wrap:wrap;
 			img{
 				width: 100%;
-				height: 100%}
-				}
+				height: 320px;
+				}}
 }
-	.logo{
-	padding-bottom: 2rem;
-	}
+div {
+.section{
+		flex-direction: column;
+}}
+
 	}
 @media only screen and (max-width: 600px) {
 	.article-mobile{
@@ -37,6 +33,11 @@ div{
 	.flex-wrap{
 		flex-wrap: nowrap;
 		}
+	div {
+	.section{
+		padding-bottom: 5rem;
+		flex-direction: column;
+}}
 div{
 	div{
 	display:flex;
@@ -44,10 +45,11 @@ div{
 		flex-wrap:wrap;
 		img{
 			width: 100%;
-			height:100%
+			height:320px;
 	}
 		
-	}}}
+	}}
+}
 @media only screen and (min-width: 1000px) {
 	.article-mobile{
 		width:25%;

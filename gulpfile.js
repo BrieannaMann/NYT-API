@@ -18,7 +18,7 @@ gulp.task('sass', function() {
    
 });
  gulp.task("watch", function(){    
-    gulp.watch("./comp/scss/*.scss",['styles']);
+    gulp.watch("./comp/scss/*.scss",['sass']);
 });
 
 gulp.task('browser-sync', function() {
